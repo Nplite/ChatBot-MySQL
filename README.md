@@ -433,33 +433,6 @@ OLLAMA_MODEL=tinyllama:latest
 ---
 
 
-## 📝 Important Notes
-
-### Ticket System Removed
-This version focuses exclusively on knowledge base and project information. All ticket-related functionality has been intentionally removed to streamline the system.
-
-### Privacy & Security
-- ✅ **Local Processing**: All AI inference happens locally via Ollama
-- ✅ **No External APIs**: No data sent to cloud services
-- ✅ **Data Control**: Full control over your data in MySQL
-- ⚠️ **Secure Passwords**: Use strong passwords and keep `.env` secure
-
-### Performance Tips
-- Use `tinyllama` for fastest responses
-- Reduce `k` parameter for quicker retrieval
-- Keep knowledge base articles concise (< 500 words)
-- Regularly clean up old project entries
-
-### Extensibility
-The system is designed to be easily extended:
-- Add new data sources in `data_loader.py`
-- Customize prompts in `chatbot.py`
-- Modify retrieval logic in `retriever.py`
-- Add preprocessing in `vector_store.py`
-
----
-
-
 ## 🔗 Resources
 
 ### Official Documentation
@@ -489,7 +462,7 @@ The system is designed to be easily extended:
 - **SQLAlchemy** for database ORM
 
 
-
 **Built with ❤️ using LangChain, Ollama, and FAISS**
+
 
 *Last Updated: December 2024*
